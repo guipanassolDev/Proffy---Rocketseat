@@ -3,7 +3,7 @@ import React from "react";
 import PageHeader from "../../components/PageHeader";
 import "./styles.css";
 import TeacherItem from "../../components/TeacherItem";
-import TeacherItemGui from "../../components/TeacherItemGui";
+import TeacherItemTwo from "../../components/TeacherItemTwo";
 
 function TeacherList() {
   return (
@@ -26,11 +26,11 @@ function TeacherList() {
           </div>
         </form>
       </PageHeader>
-
       <main>
         <TeacherItem />
-        <TeacherItemGui />
-
+        <TeacherItemTwo />
+        <TeacherItem />
+        <TeacherItemTwo />
       </main>
     </div>
   );
